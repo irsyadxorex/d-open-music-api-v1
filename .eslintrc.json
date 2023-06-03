@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["airbnb-base","eslint-config-prettier"],
+    "plugins": [
+        "eslint-plugin-prettier"
+      ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars": "error",
+        "no-console": "off",
+        "no-underscore-dangle": "off",
+        "new-cap":"off",
+        "import/no-extraneous-dependencies": "off"
+    }
+}
